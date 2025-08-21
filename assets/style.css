@@ -1,0 +1,80 @@
+/* Pokemon API Plugin Styles */
+.api-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.api-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.api-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.card-image {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 20px;
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 1.4em;
+    border-bottom: 2px solid #007cba;
+    padding-bottom: 5px;
+}
+
+.card-content p {
+    margin: 8px 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.card-content a {
+    color: #007cba;
+    text-decoration: none;
+}
+
+.card-content a:hover {
+    text-decoration: underline;
+}
+
+/* Error States */
+#api-loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.api-error {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin: 20px 0;
+    text-align: center;
+}
