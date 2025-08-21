@@ -9,6 +9,7 @@ Includes caching and error handling.
 
 ## File Structure
 
+```
 pokemon-api-plugin/
 │
 ├── assets/
@@ -20,6 +21,7 @@ pokemon-api-plugin/
 │
 ├── pokemon-api-plugin.php
 └── README.md
+```
 
 ## Features
 
