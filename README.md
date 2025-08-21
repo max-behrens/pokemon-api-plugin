@@ -3,6 +3,8 @@
 A WordPress plugin that fetches and displays Pokémon data from the public [PokéAPI] using shortcodes.  
 Includes caching and error handling.
 
+![Pokemon API Plugin Screenshot](assets/pokemon-api-page.png)
+
 ---
 
 ## File Structure
