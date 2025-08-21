@@ -30,6 +30,12 @@ pokemon-api-plugin/
 - **Fallbacks**  
   Displays error messages if data retrieval fails or if the API returns empty data.
 
+## Sources & Resources Used
+
+- **Wordpress Developer Resources**
+  https://developer.wordpress.org/reference/functions/wp_remote_get/
+- **VSCode with CoPilot IDE extension**
+
 ## Installation & Setup
 
 **2. Install Wordpress**
